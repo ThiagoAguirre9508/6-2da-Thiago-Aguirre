@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria boostrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <style>
+
+        section {
+            margin-top: 40px;
+        }
+            
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .titulo {
+            font-size: 50px;
+        }
+
+        .subtitulo {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px; /* Agregado para un mejor espaciado con la línea */
+            margin-bottom: 30px; /* Agregado para separar el subtítulo de las cards */
+            text-align: center; /* Centrar el subtítulo */
+        }
+
+        /* Opcional: Centrar las cards dentro de sus columnas si su ancho es fijo */
+        .card-wrapper {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px; /* Espaciado entre las filas de cards, si hay más de una fila */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Mis sitios favoritos</h1>
+    </header>
+
+    <main class="container">
+        <section class="estudio">
+            <h2 class="subtitulo">Recursos de estudio</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center"> <div class="col card-wrapper"> <div class="card" style="width: 18rem;">
+                        <img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2020/03/classroom.jpg?quality=70&strip=all&resize=420" class="card-img-top" alt="Placeholder Image"> <div class="card-body">
+                            <h5 class="card-title">Classroom</h5>
+                            <p class="card-text">Classroom es un gran sitio funcional para la entrega de tareas y actividades, de interfaz sencilla y funcional</p>
+                            <center><a href="https://support.google.com/edu/classroom/answer/6072460?hl=es&co=GENIE.Platform%3DDesktop" class="btn btn-primary">Classroom</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://logo-marque.com/wp-content/uploads/2020/09/Wikipedia-Logo-2010-present.png" class="card-img-top" alt="Placeholder Image"> <div class="card-body">
+                            <h5 class="card-title">Wikipedia</h5>
+                            <p class="card-text">A pesar de su mala fama, sigue siendo un sitio perfecto para encontrar informacion general bien explicada y con sus fuentes detalladas</p>
+                            <center><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="btn btn-primary">Wikipedia</a></center>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        
+        <section>
+            <h2 class="subtitulo">Entretenimiento</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center"> <div class="col card-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://about.netflix.com/images/meta/netflix-symbol-black.png" class="card-img-top" alt="Placeholder Image"> <div class="card-body">
+                            <h5 class="card-title">Netflix</h5>
+                            <p class="card-text">Una gran plataforma para mirar peliculas y series de calidad dudosa</p>
+                            <center><a href="https://www.bing.com/ck/a?!&&p=06cc42eb31b5c3aaae1f8a52f60c3012ea477c1489d9bb9afa101ee6c2a870d4JmltdHM9MTc1MjQ1MTIwMA&ptn=3&ver=2&hsh=4&fclid=1e2f3604-6db7-64b6-2255-22e06c1265ac&psq=netflix&u=a1aHR0cHM6Ly93d3cubmV0ZmxpeC5jb20vYXIvbG9naW4&ntb=1" class="btn btn-primary">Netflix</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://th.bing.com/th/id/R.4621c2959554905f8661d29a64811cc4?rik=WXyDF6zAP%2fgAfg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f05%2fOld-YouTube-logo.jpg&ehk=dWyFrsk3Dn0i869AXC%2bHqQZJE%2fKO6ZL%2fDvESWfLuH9U%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Placeholder Image"> <div class="card-body">
+                            <h5 class="card-title">YouTube</h5>
+                            <p class="card-text">El sitio de contenido audiovisual por excelencia, puedes encontrarr el video que quieras alli</p>
+                            <center><a href="https://www.bing.com/ck/a?!&&p=f5f8360f3089d8edb0e1ce8f76d7b43371a947c35d50a6165cb3acfd52c894bcJmltdHM9MTc1MjQ1MTIwMA&ptn=3&ver=2&hsh=4&fclid=1e2f3604-6db7-64b6-2255-22e06c1265ac&psq=youtube&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vP2hsPWVzLTQxOTov&ntb=1" class="btn btn-primary">YouTube</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://logos-world.net/wp-content/uploads/2020/11/Yeezy-Logo.png" class="card-img-top" alt="Placeholder Image"> <div class="card-body">
+                            <h5 class="card-title">Yeezy.com</h5>
+                            <p class="card-text">Tienda virtual de muy buena ropa, lamentablemente ahora está deshabilitada, pero pronto funcionará</p>
+                            <center><a href="https://yeezy.com/" class="btn btn-primary">Yeezy</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card-wrapper">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://portal.euqueroinvestir.com/wp-content/uploads/2023/07/20230724-logo-do-twitter.jpg" class="card-img-top" alt="Placeholder Image"> <div class="card-body">
+                            <h5 class="card-title">Ye´s Twitter</h5>
+                            <p class="card-text">Bastante entretenido ver la decadencia de un artista famoso e icónico, con mensajes incoherentes y sin sentido</p>
+                            <center><a href="https://x.com/kanyewest" class="btn btn-primary">Ye</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
