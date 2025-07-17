@@ -1,0 +1,23 @@
+header{
+    background-color: #343a40;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.parrafo1{
+    font-family: "Tektur", sans-serif;
+}
+
+.parrafo2{
+    font-family: "Barrio", system-ui;
+    font-size: 20px;
+}
+
+div{
+    font-family: "Pixelify Sans", sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: fit-content;
+    font-size: 40px;
+}
